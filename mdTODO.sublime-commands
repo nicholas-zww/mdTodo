@@ -1,0 +1,21 @@
+[
+  { "caption": "Preferences: mdTODO Key Bindings",
+    "command": "edit_settings",
+    "args": {
+      "base_file": "${packages}/mdTODO/Default.sublime-keymap",
+      "default": "[\n\t$0\n]\n"
+    }
+  },
+  { "caption": "mdTODO: Open Readme",
+    "command": "open_file",
+    "args": {
+      "file": "${packages}/mdTODO/README.md"
+    }
+  },
+  { "caption": "mdTODO: Mark Done",
+    "command": "md_todo_done"
+  },
+  { "caption": "mdTODO: New Task",
+    "command": "md_todo_new"
+  }
+]
