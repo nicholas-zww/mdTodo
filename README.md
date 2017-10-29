@@ -1,24 +1,23 @@
-mdTodo for Sublime Text
+TODO lists in markdown for Sublime Text
 ------------------
 
-mdTodo is a GTD tool for managing todo list in markdown files in Sublime Text editor.
+mdTodo is a tool for managing todo list in markdown files in Sublime Text editor.
 
 
 Installation
 ------------------
 
-To install this plugin, you have two options:
-
-* Clone source code to Sublime Text 2 app folder, eg. ~/Library/Application Support/Sublime Text 2/mdTodo.
+Simply install this plugin via **PackageControl**.
 
 
 Usage 
 ------------------
 
-CTRL + SHIFT + d : toggle task completed
+1. <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>d</kbd> : toggle task completed
+2. <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>n</kbd> : create new task 
 
 
-Samples 
+Examples 
 ------------------
 
 Suppose we have the following todo file:
@@ -27,14 +26,21 @@ Suppose we have the following todo file:
 	- call mum tomorrow at 8 am.
 	- send pull request
 
-Highlight this item line and press "CTRL + SHIFT + d", it marks a tag "@done" and also appends timestamp.
+Highlight this item line and press <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>d</kbd>, it marks a tag "@done" and also appends timestamp.
 
 	# Project A:
 	+ call mum tomorrow at 8 am. @done (2012-01-08 18:12)
 	+ send pull request @done (2012-01-08 18:12)
+	
+Pressing <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>n</kbd>, will insert `-` on a new line.
+
+	# Project A:
+	+ call mum tomorrow at 8 am. @done (2012-01-08 18:12)
+	+ send pull request @done (2012-01-08 18:12)
+	-
 
 Contribution
 ------------------
 
-Thanks Taskmate for TextMate (https://github.com/svenfuchs/taskmate).
-This is a fork of https://github.com/chagel/itodo
+- Thanks to Taskmate for TextMate (https://github.com/svenfuchs/taskmate).
+- This is a fork of https://github.com/chagel/itodo.
