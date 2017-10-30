@@ -1,0 +1,4 @@
+[
+    { "keys": ["ctrl+shift+s"], "command": "md_todo_new" },
+    { "keys": ["ctrl+shift+d"], "command": "md_todo_done" }
+]

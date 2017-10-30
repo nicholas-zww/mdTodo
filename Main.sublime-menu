@@ -1,0 +1,30 @@
+[
+  { "id": "preferences",
+    "children": [
+      { "caption": "Package Settings",
+        "mnemonic": "P",
+        "id": "package-settings",
+        "children": [
+          { "caption": "mdTODO",
+            "children": [
+              { "caption": "README",
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/mdTODO/README.md"
+                }
+              },
+              { "caption": "-" },
+              { "caption": "Key Bindings",
+                "command": "edit_settings",
+                "args": {
+                  "base_file": "${packages}/mdTODO/Default.sublime-keymap",
+                  "default": "[\n\t$0\n]\n"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
