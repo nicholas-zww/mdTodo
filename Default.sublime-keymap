@@ -1,4 +1,4 @@
 [
-    { "keys": ["ctrl+shift+s"], "command": "md_todo_new" },
-    { "keys": ["ctrl+shift+d"], "command": "md_todo_done" }
+    { "keys": ["ctrl+alt+s"], "command": "md_todo_new" },
+    { "keys": ["ctrl+alt+d"], "command": "md_todo_done" }
 ]
